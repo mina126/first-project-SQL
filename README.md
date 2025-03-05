@@ -11,10 +11,9 @@
   - [Fixing Errors](#Fixing-Errors)
   - [Missing Values](#Missing-Values)
   - [Removing Unnecessary Data](#Removing-Unnecessary-Data)
- 
 - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#data-exploration)
+  - [Data Exploration Notes](#Data-Exploration-Notes)
   - [Data Cleaning](#data-cleaning)
   - [Transform the Data](#transform-the-data)
   - [Create the SQL View](#create-the-sql-view)
@@ -83,7 +82,7 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
 
  # Pseudocode
 
-- What's the general approach in creating this solution from start to finish?
+- What's the general approach in creating this solution from start to finish ?
 1. Get the data – Download the dataset from Kaggle.
 2. Explore the data in Excel – Identify inconsistencies, missing values, and anomalies
 3. Load the data into SQL Server – Store the dataset in a relational database for structured querying
@@ -93,4 +92,21 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
 7. Generate the findings based on insights – Document key takeaways and trends
 8. Write the documentation + commentary – Summarize methodology, challenges, and outcomes
 9. Publish the data to GitHub Pages – Make the project publicly accessible
+
+# Data Exploration Notes
+- What are your initial observations with this dataset ?
+  - The dataset contains company layoff data, with at least 4 essential columns for analysis
+  - Some columns contain NULL values, particularly in layoff percentages and funding amounts
+  - Duplicate records exist, especially for companies with multiple layoff events
+  - Industry categories are inconsistent (e.g., "Crypto Startup" vs. "Crypto")
+  - Date fields are stored as text, requiring conversion to a proper date format
+  - There are irrelevant columns that are not necessary for our analysis
+ 
+  # Data Cleaning
+- What do we expect the clean data to look like ?
+-The dataset should be structured and ready for analysis, following these constraints:
+  - ✅ Only relevant columns should be retained
+  - ✅ All data types should be appropriate for the contents of each column
+  - ✅ No column should contain NULL values unless necessary
+
 
