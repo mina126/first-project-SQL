@@ -138,7 +138,7 @@ We only need the company name, location, industry, total laid off, percentage la
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
   - used TRIM to remove the whitespace
-# 3. Convert date column to proper format
+# 3.Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
   -  Before 
       ![before](assets/images/ViewADateDeforeUpdate.png)
