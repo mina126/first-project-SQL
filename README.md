@@ -130,10 +130,10 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   ![Viwe a data ](assets/images/viweadata.png)
 
 Data Cleaning & Transformation Steps
-# 1. Remove unnecessary columns
+#  1. Remove unnecessary columns
 We only need the company name, location, industry, total laid off, percentage laid off, date, stage, country, and funding
 
-# 2. Standardize industry names and remove the whitespace
+#  2. Standardize industry names and remove the whitespace
   - Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
