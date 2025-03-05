@@ -124,3 +124,11 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   |date|DATE|NO|
   |stage|VARCHAR|NO|
   |country|VARCHAR|NO|
+
+
+  ![Viwe a data ](assets/images/viweadata.png)
+
+
+
+
+  
