@@ -59,15 +59,15 @@ As a data analyst, I want to use an analytical dashboard to understand global la
 
 # Data Source
 - The dataset is sourced from Kaggle, which includes information on layoffs across various industries and locations worldwide.
-    - The dataset contains key attributes such as:
-- Company Name (e.g., Loom, Lokalise, Loft)
-- Location (City and Country)
-- Industry (e.g., Tech, Retail, Real Estate)
--Total Employees Laid Off
-- Layoff Percentage (relative to the company's workforce)
-- Layoff Date
-- Company Stage (e.g., Series A, B, C, Acquired)
-- Total Funding Raised (in millions)
+- The dataset contains key attributes such as:
+  - Company Name (e.g., Loom, Lokalise, Loft)
+  - Location (City and Country)
+  - Industry (e.g., Tech, Retail, Real Estate)
+  -Total Employees Laid Off
+  - Layoff Percentage (relative to the company's workforce)
+  - Layoff Date
+  - Company Stage (e.g., Series A, B, C, Acquired)
+  - Total Funding Raised (in millions)
 
 # Data Cleaning Process
 
