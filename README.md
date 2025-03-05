@@ -136,8 +136,7 @@ We only need the company name, location, industry, total laid off, percentage la
 Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
 
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
-    ![Code cleaning word duplicates](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
-     [Code cleaning word duplicates](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
+    ![✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
 
    
 4. Convert date column to proper format
