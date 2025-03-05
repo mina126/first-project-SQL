@@ -166,5 +166,7 @@ The date column is stored as text and must be converted to DATE forma
     ![Duplicates](assets/images/duplicates.png)
   - Code Duplicates
       [Code](assets/CodeSQL/duplicates.sql)
-
-  
+  - Removing duplicates from the data
+    ![Duplicates](assets/images/removetheDuplicates.png)
+  - Code Removing Duplicates
+      [Code](assets/CodeSQL/RemovingDuplicates.sql)
