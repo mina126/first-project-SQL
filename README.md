@@ -34,25 +34,21 @@
 
 # Objective 
 
-##What is the key pain point?
+## What is the key pain point?
 
--The data analysis team wants to identify the most significant global layoffs to analyze their impact on the job market and industry trends.
+ The data analysis team wants to identify the most significant global layoffs to analyze their impact on the job market and industry trends.
 
--What is the ideal solution?
+- What is the ideal solution?
 
--To create a dashboard that provides insights into global layoffs data, including:
+To create a dashboard that provides insights into global layoffs data, including:
 
--Total number of employees laid off
+- Total number of employees laid off
+-  Layoff percentage relative to total employees
+-  Company name and industry
+-  Geographic location
+-  Company funding amount
 
--Layoff percentage relative to total employees
-
--Company name and industry
-
--Geographic location
-
--Company funding amount
-
--This will help the analysis team make informed decisions about market trends and the impact of layoffs on various industries.
+ This will help the analysis team make informed decisions about market trends and the impact of layoffs on various industries.
 
 ##User Story
 
@@ -61,21 +57,13 @@ As a data analyst, I want to use an analytical dashboard to understand global la
 ##Data Source
 
 What data is needed to achieve our objective?
-
 We need data that includes:
-
 Company names
-
 Geographic location (country/city)
-
 Industry sector
-
 Total number of employees laid off
-
 Layoff percentage relative to total employees
-
 Layoff date
-
 Company funding amount
 
 ##Data Cleaning Process
