@@ -153,12 +153,14 @@ The date column is stored as text and must be converted to DATE forma
   # Count nulls value 
   -  Count a NULL
       ![NULL](assets/images/null.png)
+       - Code Count a NULL 
+       [Code](assets/CodeSQL/Countnullsvalue.sql)
   -  Before 
       ![before](assets/images/ViwedatabeforeremovingNULLValues.png)
   -  After
       ![After](assets/images/Theformatofthedtaafterremovingmissingvalues.png)
   - Code remove NULL 
-      [Code](assets/CodeSQL/fixthedatecolumns.sql)
+      [Code](assets/CodeSQL/RemovingNULLVALUE.sql)
 
 Remove rows with completely missing key fields (e.g., company name or total laid off)
 
