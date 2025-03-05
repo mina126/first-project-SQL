@@ -18,7 +18,7 @@
 - [Data information](#Data-information)
   - [Remove unnecessary columns](#Remove-unnecessary-columns)
   - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
-  - [Convert date column to proper format](#Convert-date-column-to-proper-format)
+  - [Convert date column to proper format](#3.Convert-date-column-to-proper-format)
   - [Handle missing values](#Handle-missing-values)
   - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
 
@@ -133,7 +133,7 @@ Data Cleaning & Transformation Steps
 #  Remove unnecessary columns
 We only need the company name, location, industry, total laid off, percentage laid off, date, stage, country, and funding
 
-#  2. Standardize industry names and remove the whitespace
+# Standardize industry names and remove the whitespace
   - Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
