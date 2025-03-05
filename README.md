@@ -53,9 +53,8 @@ To create a dashboard that provides insights into global layoffs data, including
  This will help the analysis team make informed decisions about market trends and the impact of layoffs on various industries.
 
 # User Story
-
-As a data analyst, I want to use an analytical dashboard to understand global layoff trends, so that I can identify the most affected industries and the companies with the highest layoff rates. This will help me generate data-driven reports and recommendations.
-
+- As a data analyst, I want to use an analytical dashboard to understand global layoff trends, so that I can identify the most affected industries and the companies with the highest
+- layoff rates. This will help me generate data-driven reports and recommendations
 
 # Data Source
 - The dataset is sourced from Kaggle, which includes information on layoffs across various industries and locations worldwide.
