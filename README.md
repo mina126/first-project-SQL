@@ -50,7 +50,7 @@ To create a dashboard that provides insights into global layoffs data, including
 
  This will help the analysis team make informed decisions about market trends and the impact of layoffs on various industries.
 
-##User Story
+## User Story
 
 As a data analyst, I want to use an analytical dashboard to understand global layoff trends, so that I can identify the most affected industries and the companies with the highest layoff rates. This will help me generate data-driven reports and recommendations.
 
@@ -66,24 +66,16 @@ Layoff percentage relative to total employees
 Layoff date
 Company funding amount
 
-##Data Cleaning Process
+## Data Cleaning Process
 
 Before analyzing the data, it is essential to clean it to ensure accuracy. The process includes the following steps:
-
 1. Identifying and Removing Duplicates
-
-We used an SQL query to detect duplicate records based on company name, location, industry, and number of employees laid off.
-
-Duplicates were removed to ensure data accuracy.
-
+-- We used an SQL query to detect duplicate records based on company name, location, industry, and number of employees laid off.
+-- Duplicates were removed to ensure data accuracy.
 2. Standardizing and Fixing Errors
-
-Used TRIM() to remove extra spaces from text fields.
-
-Standardized industry names to avoid inconsistencies, such as unifying variations of "Crypto" into a single standardized value.
-
-Converted the layoff date column from text format to a proper date format using STR_TO_DATE().
-
+-- Used TRIM() to remove extra spaces from text fields.
+-- Standardized industry names to avoid inconsistencies, such as unifying variations of "Crypto" into a single standardized value.
+-- Converted the layoff date column from text format to a proper date format using STR_TO_DATE().
 3. Handling Missing Values
 
 Some fields, such as total_laid_off and percentage_laid_off, contain missing values, but they are essential for analysis, so we decided to keep them as they are.
