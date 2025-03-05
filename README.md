@@ -124,7 +124,7 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   |date|DATE|NO|
   |stage|VARCHAR|NO|
   |country|VARCHAR|NO|
-
+  |funds_raised_millions|FLOAT|YES|
 
   ![Viwe a data ](assets/images/viweadata.png)
 
