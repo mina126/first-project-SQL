@@ -15,12 +15,12 @@
   - [Pseudocode](#pseudocode)
   - [Data Exploration Notes](#Data-Exploration-Notes)
   - [Data Cleaning](#data-cleaning)
-  - [Data information](#Data-information)
-       - [Remove unnecessary columns](#Remove-unnecessary-columns)
-       - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
-       - [Convert date column to proper format](#Convert-date-column-to-proper-format)
-       - [Handle missing values](#Handle-missing-values)
-       - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
+- [Data information](#Data-information)
+  - [Remove unnecessary columns](#Remove-unnecessary-columns)
+  - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
+  - [Convert date column to proper format](#Convert-date-column-to-proper-format)
+  - [Handle missing values](#Handle-missing-values)
+  - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
 
 
 
