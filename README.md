@@ -11,6 +11,7 @@
   - [Fixing Errors](#Fixing-Errors)
   - [Missing Values](#Missing-Values)
   - [Removing Unnecessary Data](#Removing-Unnecessary-Data)
+ 
 - [Development](#development)
   - [Pseudocode](#pseudocode)
   - [Data Exploration](#data-exploration)
@@ -22,15 +23,6 @@
 - [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
-- [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
-- [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
-
 
 
 
@@ -86,4 +78,19 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
 - Dropped irrelevant columns like row_num, which was used during duplicate processing but is not needed in the final analysis
 - With these steps completed, we now have clean and structured data, ready to build an analytical dashboard to extract insights on global layoffs
 
+
+# Development
+
+ # Pseudocode
+
+- What's the general approach in creating this solution from start to finish?
+1. Get the data – Download the dataset from Kaggle.
+2. Explore the data in Excel – Identify inconsistencies, missing values, and anomalies
+3. Load the data into SQL Server – Store the dataset in a relational database for structured querying
+4. Clean the data with SQL – Remove duplicates, standardize values, and fix data types
+5. Test the data with SQL – Verify accuracy, check constraints, and validate transformations
+6. Visualize the data in Power BI – Create dashboards to analyze trends and insights
+7. Generate the findings based on insights – Document key takeaways and trends
+8. Write the documentation + commentary – Summarize methodology, challenges, and outcomes
+9. Publish the data to GitHub Pages – Make the project publicly accessible
 
