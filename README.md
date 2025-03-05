@@ -16,13 +16,12 @@
   - [Data Exploration Notes](#Data-Exploration-Notes)
   - [Data Cleaning](#data-cleaning)
   - [Data information](#Data-information)
-  - [Transform the Data](#transform-the-data)
-  - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
+       - [Remove unnecessary columns](#Remove-unnecessary-columns)
+       - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
+       - [Convert date column to proper format](#Convert-date-column-to-proper-format)
+       - [Handle missing values](#Handle-missing-values)
+       - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
+
 
 
 
@@ -126,6 +125,7 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   |stage|VARCHAR|NO|
   |country|VARCHAR|NO|
   |funds_raised_millions|FLOAT|YES|
+  
 # Data information
   ![Viwe a data ](assets/images/viweadata.png)
 
@@ -138,8 +138,6 @@ We only need the company name, location, industry, total laid off, percentage la
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
   - used TRIM to remove the whitespace
-    
-
 ## 3. Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
   -  Before 
