@@ -161,8 +161,10 @@ The date column is stored as text and must be converted to DATE forma
       ![After](assets/images/Theformatofthedtaafterremovingmissingvalues.png)
   - Code remove NULL 
       [Code](assets/CodeSQL/RemovingNULLVALUE.sql)
-
-Remove rows with completely missing key fields (e.g., company name or total laid off)
-
+  ## 5.Check for duplicates and remove any 
+  - We see some duplicates things in the data 
+    ![Duplicates](assets/images/duplicates.png)
+  - Code Duplicates
+      [Code](assets/CodeSQL/duplicates.sql)
 
   
