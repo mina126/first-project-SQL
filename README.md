@@ -108,5 +108,9 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   - ✅ Only relevant columns should be retained
   - ✅ All data types should be appropriate for the contents of each column
   - ✅ No column should contain NULL values unless necessary
-
+ 
+    | property | Description |
+| --- | --- |
+| Number of Rows | 3990 |
+| Number of Columns | 9 |
 
