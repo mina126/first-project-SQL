@@ -130,15 +130,15 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   ![Viwe a data ](assets/images/viweadata.png)
 
 Data Cleaning & Transformation Steps
-## 1. Remove unnecessary columns
+# 1. Remove unnecessary columns
 We only need the company name, location, industry, total laid off, percentage laid off, date, stage, country, and funding
 
-## 2. Standardize industry names and remove the whitespace
+# 2. Standardize industry names and remove the whitespace
   - Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
   - used TRIM to remove the whitespace
-## 3. Convert date column to proper format
+# 3. Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
   -  Before 
       ![before](assets/images/ViewADateDeforeUpdate.png)
@@ -147,7 +147,7 @@ The date column is stored as text and must be converted to DATE forma
   - Code fixe a date
       [Code](assets/CodeSQL/fixthedatecolumns.sql)
     
-## 4. Handle missing values
+# 4. Handle missing values
   ## Look at Null Values
   -   the null values in total_laid_off, percentage_laid_off, and funds_raised_millions all look normal. I don't think I want to change that
   ## Count nulls value 
@@ -161,7 +161,7 @@ The date column is stored as text and must be converted to DATE forma
       ![After](assets/images/Theformatofthedtaafterremovingmissingvalues.png)
   - Code remove NULL 
       [Code](assets/CodeSQL/RemovingNULLVALUE.sql)
-  ## 5.Check for duplicates and remove any 
+  # 5.Check for duplicates and remove any 
   - We see some duplicates things in the data 
     ![Duplicates](assets/images/duplicates.png)
   - Code Duplicates
