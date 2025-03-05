@@ -148,7 +148,18 @@ The date column is stored as text and must be converted to DATE forma
       [Code](assets/CodeSQL/fixthedatecolumns.sql)
     
 ## 4. Handle missing values
-Keep missing values in percentage_laid_off and funds_raised_millions as they provide meaningful information
+  # Look at Null Values
+  -   the null values in total_laid_off, percentage_laid_off, and funds_raised_millions all look normal. I don't think I want to change that
+  # Count nulls value 
+  -  Count a NULL
+      ![NULL](assets/images/null.png)
+  -  Before 
+      ![before](assets/images/ViwedatabeforeremovingNULLValues.png)
+  -  After
+      ![After](assets/images/Theformatofthedtaafterremovingmissingvalues.png)
+  - Code remove NULL 
+      [Code](assets/CodeSQL/fixthedatecolumns.sql)
+
 Remove rows with completely missing key fields (e.g., company name or total laid off)
 
 
