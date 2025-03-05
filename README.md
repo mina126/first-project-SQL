@@ -114,3 +114,13 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   | Number of Rows | 3990 |
   | Number of Columns | 9 |
 
+  | Column Name | Data Type|Nullable|
+  | --- | --- |---|
+  company_name|VARCHAR|NO
+  | location | VARCHAR |NO|
+  | industry | VARCHAR |NO|
+  |total_laid_off|INTEGER|NO|
+  |percentage_laid_off|FLOAT|YES|
+  |date|DATE|NO|
+  |stage|VARCHAR|NO|
+  |country|VARCHAR|NO|
