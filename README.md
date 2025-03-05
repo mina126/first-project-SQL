@@ -138,9 +138,15 @@ Convert similar industry names to a single category (e.g., "Crypto Startup" → 
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
 
-   
-4. Convert date column to proper format
+3. Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
+  - Column date before update 
+      ![before](assets/images/ViewADateDeforeUpdate.png)
+  - Column date After update
+      ![After](assets/images/dateColumnAfterConverting.png)
+  - Code
+      [Code](assets/CodeSQL/fixthedatecolumns.sql)
+    
 5. Handle missing values
 Keep missing values in percentage_laid_off and funds_raised_millions as they provide meaningful information
 Remove rows with completely missing key fields (e.g., company name or total laid off)
