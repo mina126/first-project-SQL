@@ -137,6 +137,8 @@ Convert similar industry names to a single category (e.g., "Crypto Startup" → 
 
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     ![Code cleaning word duplicates](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
+     [Code cleaning word duplicates](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
+
    
 4. Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
