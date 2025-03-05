@@ -133,10 +133,12 @@ Data Cleaning & Transformation Steps
 ## 1. Remove unnecessary columns
 We only need the company name, location, industry, total laid off, percentage laid off, date, stage, country, and funding
 
-## 2. Standardize industry names
-Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
+## 2. Standardize industry names and remove the whitespace
+  - Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
     ![Standardize industry names](assets/images/CryptoCurrencyAndCrypto.png)
     [✅ Code cleaning word duplicates ](assets/CodeSQL/ChangingSimilarWordsCrypto.sql)
+  - used TRIM to remove the whitespace
+    
 
 ## 3. Convert date column to proper format
 The date column is stored as text and must be converted to DATE forma
@@ -148,9 +150,9 @@ The date column is stored as text and must be converted to DATE forma
       [Code](assets/CodeSQL/fixthedatecolumns.sql)
     
 ## 4. Handle missing values
-  # Look at Null Values
+  ## Look at Null Values
   -   the null values in total_laid_off, percentage_laid_off, and funds_raised_millions all look normal. I don't think I want to change that
-  # Count nulls value 
+  ## Count nulls value 
   -  Count a NULL
       ![NULL](assets/images/null.png)
        - Code Count a NULL 
