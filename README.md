@@ -19,6 +19,7 @@
   - [Remove unnecessary columns](#Remove-unnecessary-columns)
   - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
   - [Convert date column to proper format](#3.Convert-date-column-to-proper-format)
+        - [Before](#Before)
   - [Handle missing values](#Handle-missing-values)
   - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
 
