@@ -15,6 +15,7 @@
   - [Pseudocode](#pseudocode)
   - [Data Exploration Notes](#Data-Exploration-Notes)
   - [Data Cleaning](#data-cleaning)
+  - [Data information](#Data-information)
   - [Transform the Data](#transform-the-data)
   - [Create the SQL View](#create-the-sql-view)
 - [Testing](#testing)
@@ -125,7 +126,7 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
   |stage|VARCHAR|NO|
   |country|VARCHAR|NO|
   |funds_raised_millions|FLOAT|YES|
-
+# Data information
   ![Viwe a data ](assets/images/viweadata.png)
 
 
