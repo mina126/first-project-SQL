@@ -129,7 +129,18 @@ Before analyzing the data, it is essential to clean it to ensure accuracy  The p
 # Data information
   ![Viwe a data ](assets/images/viweadata.png)
 
-
+Data Cleaning & Transformation Steps
+1. Remove unnecessary columns
+We only need the company name, location, industry, total laid off, percentage laid off, date, stage, country, and funding
+2. Standardize industry names
+Convert similar industry names to a single category (e.g., "Crypto Startup" → "Crypto")
+    ![Standardize industry names](assets/images/Crypto_Currency_%Crypto.png)
+     ![Code cleaning word duplicates](assets/Code-SQL/Changing_similar_words_crypto.sql)
+4. Convert date column to proper format
+The date column is stored as text and must be converted to DATE forma
+5. Handle missing values
+Keep missing values in percentage_laid_off and funds_raised_millions as they provide meaningful information
+Remove rows with completely missing key fields (e.g., company name or total laid off)
 
 
   
