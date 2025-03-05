@@ -56,17 +56,18 @@ To create a dashboard that provides insights into global layoffs data, including
 
 As a data analyst, I want to use an analytical dashboard to understand global layoff trends, so that I can identify the most affected industries and the companies with the highest layoff rates. This will help me generate data-driven reports and recommendations.
 
-# Data Source
 
-What data is needed to achieve our objective?
-We need data that includes:
-Company names
-Geographic location (country/city)
-Industry sector
-Total number of employees laid off
-Layoff percentage relative to total employees
-Layoff date
-Company funding amount
+# Data Source
+- The dataset is sourced from Kaggle, which includes information on layoffs across various industries and locations worldwide.
+    - The dataset contains key attributes such as:
+- Company Name (e.g., Loom, Lokalise, Loft)
+- Location (City and Country)
+- Industry (e.g., Tech, Retail, Real Estate)
+-Total Employees Laid Off
+- Layoff Percentage (relative to the company's workforce)
+- Layoff Date
+- Company Stage (e.g., Series A, B, C, Acquired)
+- Total Funding Raised (in millions)
 
 # Data Cleaning Process
 
