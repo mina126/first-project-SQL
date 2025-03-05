@@ -20,7 +20,12 @@
   - [Standardize industry names and remove the whitespace](#Standardize-industry-names-and-remove-the-whitespace)
   - [Convert date column to proper format](#3.Convert-date-column-to-proper-format)
     - [Before](#Before)
+    - [After](#After)
+    - [Code](#Code)
   - [Handle missing values](#Handle-missing-values)
+    - [Before](#Before)
+    - [After](#After)
+    - [Code](#Code)
   - [Check for duplicates and remove any](#Check-for-duplicates-and-remove-any)
 
 
@@ -143,9 +148,9 @@ We only need the company name, location, industry, total laid off, percentage la
 The date column is stored as text and must be converted to DATE forma
   - # Before 
       ![before](assets/images/ViewADateDeforeUpdate.png)
-  -  After
+  - # After
       ![After](assets/images/dateColumnAfterConverting.png)
-  - Code fixe a date
+  - # Code fixe a date
       [Code](assets/CodeSQL/fixthedatecolumns.sql)
     
 # Handle missing values
@@ -156,11 +161,11 @@ The date column is stored as text and must be converted to DATE forma
       ![NULL](assets/images/null.png)
        - Code Count a NULL 
        [Code](assets/CodeSQL/Countnullsvalue.sql)
-  -  Before 
+  - # Before 
       ![before](assets/images/ViwedatabeforeremovingNULLValues.png)
-  -  After
+  - # After
       ![After](assets/images/Theformatofthedtaafterremovingmissingvalues.png)
-  - Code remove NULL 
+  - # Code remove NULL 
       [Code](assets/CodeSQL/RemovingNULLVALUE.sql)
     
   # Check for duplicates and remove any 
